@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "@/styles/profile.module.css"
+import style from '@/styles/Float.module.css'
 
 export function Analysis(){
-    return (
+    return (<>
         <dir>
         <img
           src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FWFOPQ%2FbtrCQwtuxA6%2FOHLJWJgW43Mgkqa3ImCDpk%2Fimg.jpg"
           width="500"/><br/><br/>
-        <button type="submit" class="btn btn-outline-dark">챗봇과 대화하기</button>
         <table className={styles.customers}>
         <tr>
              <th></th>
@@ -35,5 +35,8 @@ export function Analysis(){
         </tr>
         </table>
         </dir>
+        <a href="#" className={style.float}>
+            <img src='https://ifh.cc/g/5y48Hl.png' className={style.my} style={{width:40+"px", height:40+"px"}}/>
+        </a></>
    )
 }

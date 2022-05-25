@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react"
+import styles from '@/styles/Float.module.css'
 
 export function Result() {
     const [file, setFile] = useState(null);
@@ -13,5 +14,8 @@ export function Result() {
         </div>
         <br/><br/>
         <h5>검사 결과 ... 악보와 XX.X% 유사합니다.</h5>
+        <a href="#" className={styles.float}>
+            <img src='https://ifh.cc/g/5y48Hl.png' className={styles.my} style={{width:40+"px", height:40+"px"}}/>
+        </a>
     </>)
 }
