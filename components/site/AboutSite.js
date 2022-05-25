@@ -2,29 +2,70 @@ import React from "react";
 import styles from "@/styles/profile.module.css"
 
 export function AboutSite(){
-     return(
-          <table className={styles.tab}>
-  <tr className={styles.tr}>
-    <th className={styles.th}></th>
-    <th className={styles.th}>링크명</th>
-    <th className={styles.th}>사이트 주소</th>
-  </tr>
-  <tr className={styles.tr}>
-<td className={styles.th}><img 
-src="https://m.akbobada.com:444/akbobada/common/Renewal/images/logo.svg" 
-width="50"
-height="30"/></td>
-    <td className={styles.th} href= "">악보바다</td>
-    <td className={styles.th}><a href="https://m.akbobada.com:444/" target="_blank" className={styles.text}> https://m.akbobada.com </a></td>
-  </tr>
-  <tr className={styles.tr}>
-  <td className={styles.th}><img 
-  src="https://www.akbonara.co.kr/images/ak_logo_1.png" 
-  width="50"
-  height="30"/></td>
-    <td className={styles.th}>악보나라</td>
-    <td className={styles.th}><a href="https://www.akbonara.co.kr/?gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_Ji9GtL3XlmwPIaDl2gjbIQbmTvEUP8IwSRHyirHypM-9LcqKCdiKwaAgOGEALw_wcB" target="_blank" className={styles.text}> https://www.akbonara.co.kr </a></td>
-  </tr>
-</table>
-    )
+     return(<>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="https://ifh.cc/g/ZfTlKK.png" class="card-img-top" alt="악보나라" style={{width: 200+"px", margin: "0 auto"}}/>
+            <div class="card-body">
+              <h5 class="card-title">악보나라</h5>
+              <p class="card-text">피아노 악보, 기타, 베이스, 드럼 등 전문 악보 판매 사이트</p>
+              <a href="https://www.akbonara.co.kr/" class="btn btn-dark">바로가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="card">
+            <img src="https://ifh.cc/g/ZfTlKK.png" class="card-img-top" alt="악보나라" style={{width: 200+"px", margin: "0 auto"}}/>
+            <div class="card-body">
+              <h5 class="card-title">악보나라</h5>
+              <p class="card-text">피아노 악보, 기타, 베이스, 드럼 등 전문 악보 판매 사이트</p>
+              <a href="https://www.akbonara.co.kr/" class="btn btn-dark">바로가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="https://ifh.cc/g/ZfTlKK.png" class="card-img-top" alt="악보나라" style={{width: 200+"px", margin: "0 auto"}}/>
+            <div class="card-body">
+              <h5 class="card-title">악보나라</h5>
+              <p class="card-text">피아노 악보, 기타, 베이스, 드럼 등 전문 악보 판매 사이트</p>
+              <a href="https://www.akbonara.co.kr/" class="btn btn-dark">바로가기</a>
+            </div>
+          </div>
+        </div>
+      </div><br/><br/>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="https://ifh.cc/g/ZfTlKK.png" class="card-img-top" alt="악보나라" style={{width: 200+"px", margin: "0 auto"}}/>
+            <div class="card-body">
+              <h5 class="card-title">악보나라</h5>
+              <p class="card-text">피아노 악보, 기타, 베이스, 드럼 등 전문 악보 판매 사이트</p>
+              <a href="https://www.akbonara.co.kr/" class="btn btn-dark">바로가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="https://ifh.cc/g/ZfTlKK.png" class="card-img-top" alt="악보나라" style={{width: 200+"px", margin: "0 auto"}}/>
+            <div class="card-body">
+              <h5 class="card-title">악보나라</h5>
+              <p class="card-text">피아노 악보, 기타, 베이스, 드럼 등 전문 악보 판매 사이트</p>
+              <a href="https://www.akbonara.co.kr/" class="btn btn-dark">바로가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="https://ifh.cc/g/ZfTlKK.png" class="card-img-top" alt="악보나라" style={{width: 200+"px", margin: "0 auto"}}/>
+            <div class="card-body">
+              <h5 class="card-title">악보나라</h5>
+              <p class="card-text">피아노 악보, 기타, 베이스, 드럼 등 전문 악보 판매 사이트</p>
+              <a href="https://www.akbonara.co.kr/" class="btn btn-dark">바로가기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </>)
 }

@@ -6,7 +6,7 @@ export function Select() {
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="/analysis/analysis" class="btn btn-outline-dark">표절 검사</a>
+                    <a href="/plagiarism/result" class="btn btn-outline-dark">표절 검사</a>
                 </div>
             </div> &nbsp; &nbsp;
             <div class="card" style={{width: 18+"rem"}}>
@@ -14,7 +14,7 @@ export function Select() {
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="/plagiarism/result" class="btn btn-outline-dark">악보 분석</a>
+                        <a href="/analysis/analysis" class="btn btn-outline-dark">악보 분석</a>
                     </div>
             </div>
         </div>

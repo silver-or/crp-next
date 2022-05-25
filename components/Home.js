@@ -6,8 +6,6 @@ import { symbolName } from "typescript";
 export function Home() {
   return (
     <>
-
-
     <main role="main">
       <div class="container">
       <div class="position-relative overflow-hidden p-6 p-md-3 m-md-1 text-center text-light bg-image" style={{backgroundImage: "url('https://images.unsplash.com/photo-1530950774950-6376cbdcf385?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzE1fHxtdXNpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600')"}}>
@@ -101,7 +99,7 @@ export function Home() {
                             <p>+ 01 234 567 89</p>
                         </li>
                         <li><i class="fa fa-envelope mt-4 fa"></i>
-                            <p>contact@mdbootstrap.com</p>
+                            <p>contact@crp.kr</p>
                         </li>
                     </ul>
                 </div>
